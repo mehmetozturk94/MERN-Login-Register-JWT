@@ -1,0 +1,16 @@
+POST http://localhost:5000/api/user/register
+Content-Type:application/json;charset=UTF-8
+
+headers: {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'POST, GET',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'responseType': 'text'
+  },
+  
+  {
+    "name": "Ahmet",
+    "email": "test2@test",
+    "password": "1234567"
+  }
